@@ -12,10 +12,10 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourname.memorialreminder"
+      "bundleIdentifier": "com.johnny.memorialreminder"
     },
     "android": {
-      "package": "com.yourname.memorialreminder",
+      "package": "com.johnny.memorialreminder",
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
@@ -29,6 +29,16 @@
           "color": "#378ADD"
         }
       ]
-    ]
+    ],
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6b6a8ad7-1fe6-48b7-809b-53e62e77cebb"
+      }
+    }
   }
 }
